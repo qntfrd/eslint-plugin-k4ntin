@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ["mocha"],
   rules: {
-    "mocha/valid-suite-description": ["error", "^[A-Z]"],
+    "mocha/valid-suite-description": ["error", "^[A-Z/]"],
     "mocha/prefer-arrow-callback": "error",
     "mocha/no-skipped-tests": "error",
     "mocha/no-sibling-hooks": "error",
