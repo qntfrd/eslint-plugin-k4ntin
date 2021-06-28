@@ -21,7 +21,7 @@ module.exports = {
     "space-unary-ops": "error",
     "space-infix-ops": "error",
     "space-in-parens": ["error", "never"],
-    "space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": ["error", { anonymous: "always", named: "never", arrow: "always" }],
     "space-before-blocks": ["error", "always"],
     "sort-vars": "off",
     "sort-keys": "off",
