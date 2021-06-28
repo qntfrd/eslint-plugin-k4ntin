@@ -90,6 +90,9 @@ module.exports = {
       selector: "class",
       format: ["PascalCase"],
     }, {
+      selector: "typeAlias",
+      format: ["PascalCase"],
+    }, {
       selector: "class",
       modifiers: ["abstract"],
       format: ["PascalCase"],
