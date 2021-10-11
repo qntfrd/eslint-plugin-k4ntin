@@ -78,6 +78,8 @@ module.exports = {
     "block-scoped-var": "error",
     "array-callback-return": "error",
     "accessor-pairs": "off",
-    "no-restricted-properties": "off"
+    "no-restricted-properties": "off",
+    "no-process-env": "error",
+    "no-process-exit": "error"
   }
 }
